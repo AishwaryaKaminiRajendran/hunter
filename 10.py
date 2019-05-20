@@ -7,8 +7,8 @@ for i in range(0,len(b)):
         if b[i]==a[j]:
             c=c+1
 if c==len(b):
-    print("yes")
+    print("YES")
 else:
-    print("no")
+    print("NO")
     
     
