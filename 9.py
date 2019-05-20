@@ -1,4 +1,4 @@
-n=int(input())
+x=int(input())
 a=list(map(int,input().split()))
 t=max(a)
 c,d=0,0
