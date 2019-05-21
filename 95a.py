@@ -1,12 +1,12 @@
 import math
-def isprime(x):
-    if(x ==2):
+def isprime(z):
+    if(z ==2):
         return True
-    elif(x%2 == 0):
+    elif(z%2 == 0):
         return False
     else:
-        for j in range(2,int(math.sqrt(x)+1)):
-            if(x%j == 0):
+        for j in range(2,int(math.sqrt(z)+1)):
+            if(z%j == 0):
                 return False
         return True
 n = int(input(""))
