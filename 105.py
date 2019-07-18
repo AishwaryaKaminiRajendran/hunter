@@ -7,7 +7,7 @@ while n>0:
     x=n%10
     c=c+1
     n=n//10
-print( c)   
+#print( c)   
 while t>0:
     d=t%10
     s=s+d**c
