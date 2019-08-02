@@ -12,5 +12,6 @@ for i in range(0,len(c)):
     else:
         x.append(c[i])
         x.append(b[i])
-print(x)
+for j in range(0,len(x)):
+    print(x[j],end=" ")
     
